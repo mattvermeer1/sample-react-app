@@ -1,0 +1,47 @@
+.app {
+  display: flex;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  width: 200px;
+  background: #f5f5f5;
+  padding: 20px;
+}
+
+.list-item {
+  padding: 8px;
+  cursor: pointer;
+  margin: 4px 0;
+}
+
+.list-item.active {
+  background: #007bff;
+  color: white;
+}
+
+.main {
+  flex: 1;
+  padding: 20px;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin: 5px 0;
+}
+
+.task.completed {
+  opacity: 0.6;
+  text-decoration: line-through;
+}
+
+button {
+  padding: 8px 16px;
+  margin: 5px;
+  cursor: pointer;
+}
